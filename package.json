@@ -10,6 +10,7 @@
         "jest": "^26.6.3"
     },
     "scripts": {
-        "test": "jest"
+        "test": "jest",
+        "zip": "rm -rf lambda.zip && zip -r lambda.zip src node_modules package.json package-lock.json"
     }
 }
